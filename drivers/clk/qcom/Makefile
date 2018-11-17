@@ -48,6 +48,7 @@ obj-$(CONFIG_MSM_GCC_LAHAINA) += gcc-lahaina.o
 obj-$(CONFIG_MSM_GCC_KONA) += gcc-kona.o
 obj-$(CONFIG_MSM_GPUCC_LAHAINA) += gpucc-lahaina.o
 obj-$(CONFIG_MSM_CAMCC_LAHAINA) += camcc-lahaina.o
+obj-$(CONFIG_MSM_GPUCC_KONA) += gpucc-kona.o
 obj-$(CONFIG_MSM_MMCC_8960) += mmcc-msm8960.o
 obj-$(CONFIG_MSM_MMCC_8974) += mmcc-msm8974.o
 obj-$(CONFIG_MSM_MMCC_8996) += mmcc-msm8996.o
