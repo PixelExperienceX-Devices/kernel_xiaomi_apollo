@@ -1,5 +1,7 @@
-/* SPDX-License-Identifier: GPL-2.0 */
-/* Copyright (c) 2018, The Linux Foundation. All rights reserved. */
+/* SPDX-License-Identifier: GPL-2.0-only */
+/*
+ * Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+ */
 
 #ifndef _DT_BINDINGS_CLK_QCOM_GCC_KONA_H
 #define _DT_BINDINGS_CLK_QCOM_GCC_KONA_H
@@ -208,28 +210,48 @@
 #define GCC_DPM_BCR						0
 #define GCC_GPU_BCR						1
 #define GCC_MMSS_BCR						2
-#define GCC_NPU_BCR						3
-#define GCC_PCIE_0_BCR						4
-#define GCC_PCIE_0_PHY_BCR					5
-#define GCC_PCIE_1_BCR						6
-#define GCC_PCIE_1_PHY_BCR					7
-#define GCC_PCIE_2_BCR						8
-#define GCC_PCIE_2_PHY_BCR					9
-#define GCC_PCIE_PHY_BCR					10
-#define GCC_PDM_BCR						11
-#define GCC_QSPI_BCR						12
-#define GCC_QUPV3_WRAPPER_0_BCR					13
-#define GCC_QUPV3_WRAPPER_1_BCR					14
-#define GCC_QUPV3_WRAPPER_2_BCR					15
-#define GCC_QUSB2PHY_PRIM_BCR					16
-#define GCC_QUSB2PHY_SEC_BCR					17
-#define GCC_SDCC2_BCR						18
-#define GCC_SDCC4_BCR						19
-#define GCC_TSIF_BCR						20
-#define GCC_UFS_CARD_BCR					21
-#define GCC_UFS_PHY_BCR						22
-#define GCC_USB30_PRIM_BCR					23
-#define GCC_USB30_SEC_BCR					24
-#define GCC_USB_PHY_CFG_AHB2PHY_BCR				25
+#define GCC_NPU_BWMON_BCR					3
+#define GCC_NPU_BCR						4
+#define GCC_PCIE_0_BCR						5
+#define GCC_PCIE_0_LINK_DOWN_BCR				6
+#define GCC_PCIE_0_NOCSR_COM_PHY_BCR				7
+#define GCC_PCIE_0_PHY_BCR					8
+#define GCC_PCIE_0_PHY_NOCSR_COM_PHY_BCR			9
+#define GCC_PCIE_1_BCR						10
+#define GCC_PCIE_1_LINK_DOWN_BCR				11
+#define GCC_PCIE_1_NOCSR_COM_PHY_BCR				12
+#define GCC_PCIE_1_PHY_BCR					13
+#define GCC_PCIE_1_PHY_NOCSR_COM_PHY_BCR			14
+#define GCC_PCIE_2_BCR						15
+#define GCC_PCIE_2_LINK_DOWN_BCR				16
+#define GCC_PCIE_2_NOCSR_COM_PHY_BCR				17
+#define GCC_PCIE_2_PHY_BCR					18
+#define GCC_PCIE_2_PHY_NOCSR_COM_PHY_BCR			19
+#define GCC_PCIE_PHY_BCR					20
+#define GCC_PCIE_PHY_CFG_AHB_BCR				21
+#define GCC_PCIE_PHY_COM_BCR					22
+#define GCC_PDM_BCR						23
+#define GCC_QSPI_BCR						24
+#define GCC_QUPV3_WRAPPER_0_BCR					25
+#define GCC_QUPV3_WRAPPER_1_BCR					26
+#define GCC_QUPV3_WRAPPER_2_BCR					27
+#define GCC_QUSB2PHY_PRIM_BCR					28
+#define GCC_QUSB2PHY_SEC_BCR					29
+#define GCC_SDCC2_BCR						30
+#define GCC_SDCC4_BCR						31
+#define GCC_TSIF_BCR						32
+#define GCC_UFS_CARD_BCR					33
+#define GCC_UFS_PHY_BCR						34
+#define GCC_USB30_PRIM_BCR					35
+#define GCC_USB30_SEC_BCR					36
+#define GCC_USB3_DP_PHY_PRIM_BCR				37
+#define GCC_USB3_DP_PHY_SEC_BCR					38
+#define GCC_USB3_PHY_PRIM_BCR					39
+#define GCC_USB3_PHY_SEC_BCR					40
+#define GCC_USB3PHY_PHY_PRIM_BCR				41
+#define GCC_USB3PHY_PHY_SEC_BCR					42
+#define GCC_USB_PHY_CFG_AHB2PHY_BCR				43
+#define GCC_VIDEO_AXI0_CLK_BCR					44
+#define GCC_VIDEO_AXI1_CLK_BCR					45
 
 #endif
