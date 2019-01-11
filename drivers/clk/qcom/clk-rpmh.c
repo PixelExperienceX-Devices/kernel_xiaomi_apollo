@@ -129,8 +129,6 @@ static DEFINE_MUTEX(rpmh_clk_lock);
 	__DEFINE_CLK_RPMH(_platform, _name, _name_active, _res_name,	\
 			  CLK_RPMH_VRM_EN_OFFSET, 1, _div, true)
 
-
-
 #define DEFINE_CLK_RPMH_BCM(_platform, _name, _res_name)		\
 	static struct clk_rpmh _platform##_##_name = {			\
 		.res_name = _res_name,					\
