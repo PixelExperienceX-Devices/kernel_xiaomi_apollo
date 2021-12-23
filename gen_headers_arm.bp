@@ -1020,7 +1020,7 @@ gen_headers_out_arm = [
     "sound/cs35l41.h",
     "linux/msm_audio.h",
     "linux/msm_audio_g711.h",
-    "sound/msmcal-h",wdep.h",
+    "sound/msmcal-hwdep.h",
     "linux/msm_audio_amrwb.h",
     "linux/msm_audio_calibration.h",
     "sound/audio_slimslave.h",

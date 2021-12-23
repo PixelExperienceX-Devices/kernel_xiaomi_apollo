@@ -1021,7 +1021,7 @@ gen_headers_out_arm64 = [
     "sound/voice_params.h",
     "linux/msm_audio_amrwbplus.h",
     "sound/audio_effects.h",
-    "sound/msmcal-h",wdep.h",
+    "sound/msmcal-hwdep.h",
     "linux/msm_audio_calibration.h",
     "linux/msm_audio_qcp.h",
     "linux/msm_audio_amrnb.h",
