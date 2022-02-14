@@ -229,6 +229,16 @@ config MSM_GCC_8998
 	  Support for the global clock controller on msm8998 devices.
 	  Say Y if you want to use peripheral devices such as UART, SPI,
 	  i2c, USB, UFS, SD/eMMC, PCIe, etc.
+	  
+config MSM_GCC_KONA
+	tristate "KONA Global Clock Controller"
+	depends on COMMON_CLK_QCOM
+	select QCOM_GDSC
+	help
+	  Support for the global clock controller on Qualcomm Technologies, Inc
+	  KONA devices.
+	  Say Y if you want to use peripheral devices such as UART, SPI, I2C,
+	  USB, UFS, SD/eMMC, PCIe, etc.	  
 
 config QCS_DEBUGCC_404
 	tristate "QCS404 Debug Clock Controller"
